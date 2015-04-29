@@ -88,28 +88,3 @@ setInterval(function() {
   }, handlers.updateMessagesList)
 }, 1000)
 
-setInterval(function() {
-  graylog.streamThroughput({
-    serverUrl: serverUrl,
-    streamId: streamId,
-    username: apiUser,
-    password: apiPass
-  }, handlers.updateStreamThroughput)
-}, 1000)
-
-setInterval(function() {
-  graylog.totalThroughput({
-    serverUrl: serverUrl,
-    username: apiUser,
-    password: apiPass
-  }, handlers.updateTotalThroughputLine)
-}, 1000)
-
-setInterval(function() {
-  graylog.streamAlerts({
-    serverUrl: serverUrl,
-    streamId: streamId,
-    username: apiUser,
-    password: apiPass
-  }, handlers.renderAlerts)
-}, 1000)
