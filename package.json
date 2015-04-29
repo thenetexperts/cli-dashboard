@@ -1,6 +1,6 @@
 {
   "name": "graylog-cli-dashboard",
-  "description": "CLI dashboard for Graylog because ain't nobody got time for browser windows.",
+  "description": "Fork of the Graylog CLI dashboard optimised for tail semantics.",
   "homepage": "http://www.graylog.org/",
   "author": {
     "name": "Lennart Koopmann",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Graylog2/cli-dashboard.git"
+    "url": "git@github.com:RMS/cli-dashboard.git"
   },
   "bugs": {
-    "url": "https://github.com/Graylog2/cli-dashboard/issues"
+    "url": " - "
   },
   "licenses": [
     {
@@ -19,7 +19,7 @@
       "url": "https://github.com/Graylog2/cli-dashboard/blob/master/COPYING"
     }
   ],
-  "version": "0.13.0",
+  "version": "0.13.0.1",
   "dependencies": {
     "blessed": "0.0.37",
     "blessed-contrib": "0.0.8",
